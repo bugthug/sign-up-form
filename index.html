@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Signup Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="sidebar">
+        <div class="black-strip">
+            <img src="./assets/odin-lined.png" alt="odin-logo">
+            <p>Odin</p>
+        </div>
+    </div>
+    <main>
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+            <br /> Sign up <em>now</em> to get started
+        </p>
+        <p>You <em>know</em> you want to.</p>
+        <form>
+            <p>Let's do this!</p>
+            <label for="first-name">First name</label>
+            <input type="text" name="first-name" 
+            id="first-name" required>
+
+            <label for="last-name">Last name</label>
+            <input required type="text" name="last-name" id="last-name">
+
+            <label for="email">Email</label>
+            <input required type="email" name="email" id="email">
+
+            <label for="phone">Phone number</label>
+            <input required type="tel" name="phone" id="phone">
+
+            <label for="password">Password</label>
+            <input required type="password" name="password" id="password">
+
+            <label for="confirm-password" required>Confirm Password</label>
+            <input type="password" name="pw-conf" id="confirm-password">
+
+            <button type="submit">Create account</button>
+        </form>
+        <p>Already have an account? <a href="bulbulim">Log in</a></p>
+    </main>
+</body>
+</html>

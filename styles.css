@@ -1,0 +1,33 @@
+@font-face {
+    font-family: NorseBold;
+    src: url("./assets/fonts/Norse-Bold.otf") format("opentype");
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+#sidebar {
+    height: 100vh;
+    background-image: url("./assets/nicefile.avif");
+    position: relative;
+    flex: 1 1 auto;
+    min-width: 500px;
+    
+}
+
+.black-strip {
+    background-color: rgba(32, 40, 38,0.7);
+    display: flex;
+    align-items: center;
+}
+
+.black-strip > img{
+    height: 6rem;
+}
+
+.black-strip > p {
+    font-family: NorseBold;
+    color: white;
+}
