@@ -11,60 +11,63 @@
 </head>
 
 <body>
-
-    <header>
-        <p>This is not a real online service! You know you need something like this in your life to help you realize
-            your deepest dreams.
-            <br /> Sign up <em>now</em> to get started
-        </p>
-        <br />
-
-        <p>You <em>know</em> you want to.</p>
-    </header>
-
-    <main>
-        <form id="register-user">
-            <p>Let's do this!</p>
-            <div class="form-row">
-                <div class="input-and-label">
-                    <label for="first-name">First name</label>
-                    <input type="text" name="first-name" id="first-name" placeholder=" " required>
+    <div class="sidebar">
+        <div class="black-line">
+            <img src="./assets/odin-lined.png" alt="odin-logo">
+            <p>Odin</p>
+        </div>
+    </div>
+    <div class="form-section">
+        <header>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize
+                your deepest dreams.
+                <br /> Sign up <em>now</em> to get started
+            </p>
+            <br />
+            <p>You <em>know</em> you want to.</p>
+        </header>
+        <main>
+            <form id="register-user">
+                <p>Let's do this!</p>
+                <div class="form-row">
+                    <div class="input-and-label">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder=" " required>
+                    </div>
+                    <div class="input-and-label">
+                        <label for="last-name">Last name</label>
+                        <input required type="text" placeholder=" " name="last-name" id="last-name">
+                    </div>
                 </div>
-                <div class="input-and-label">
-                    <label for="last-name">Last name</label>
-                    <input required type="text" placeholder=" " name="last-name" id="last-name">
+                <div class="form-row">
+                    <div class="input-and-label">
+                        <label for="email">Email</label>
+                        <input required type="email" placeholder=" " name="email" id="email">
+                    </div>
+                    <div class="input-and-label">
+                        <label for="phone">Phone number</label>
+                        <input required type="tel" placeholder=" " name="phone" id="phone">
+                    </div>
                 </div>
-            </div>
-            <div class="form-row">
-                <div class="input-and-label">
-                    <label for="email">Email</label>
-                    <input required type="email" placeholder=" " name="email" id="email">
+                <div class="form-row">
+                    <div class="input-and-label">
+                        <label for="password">Password</label>
+                        <input required type="password" placeholder=" " name="password" id="password">
+                        <span>* Passwords do not match</span>
+                    </div>
+                    <div class="input-and-label">
+                        <label for="confirm-password" required>Confirm Password</label>
+                        <input type="password" name="pw-conf" placeholder=" " id="confirm-password">
+                        <span>* Passwords do not match</span>
+                    </div>
                 </div>
-                <div class="input-and-label">
-                    <label for="phone">Phone number</label>
-                    <input required type="tel" placeholder=" " name="phone" id="phone">
-                </div>
-            </div>
-            <div class="form-row">
-                <div class="input-and-label">
-                    <label for="password">Password</label>
-                    <input required type="password" placeholder=" " name="password" id="password">
-                    <span>* Passwords do not match</span>
-                </div>
-                <div class="input-and-label">
-                    <label for="confirm-password" required>Confirm Password</label>
-                    <input type="password" name="pw-conf" placeholder=" "  id="confirm-password">
-                    <span>* Passwords do not match</span>
-                </div>
-            </div>
-        </form>
-    </main>
-    <button type="submit" form="register-user"
-    class="button-40">Create account</button>
-
-    <footer>
-        <p>Already have an account? <a href="bulbulim">Log in</a></p>
-    </footer>
+            </form>
+        </main>
+        <button type="submit" form="register-user" class="button-40">Create account</button>
+        <footer>
+            <p>Already have an account? <a href="bulbulim">Log in</a></p>
+        </footer>
+    </div>
 </body>
 
 </html>
