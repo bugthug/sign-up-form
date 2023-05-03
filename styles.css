@@ -100,6 +100,7 @@ body {
 }
 
 header {
+    line-height: 1.5rem;
     width: clamp(45ch, 50%, 75ch);
     font-weight: 650;
     font-size: 1.175rem;
