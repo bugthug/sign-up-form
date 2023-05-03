@@ -89,6 +89,7 @@ body {
 }
 
 .form-section {
+    flex: 1;
     background-color: #edede7;
     font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     margin-top: 150px;
@@ -105,7 +106,7 @@ main {
     background-color: #edede7;
     font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     
-    margin: 100px 45px 0 0;
+    margin: 100px 0 0 -45px;
     background-color: whitesmoke;
     /* make form stick to sidebar */
     
@@ -183,6 +184,10 @@ input {
     box-shadow: none;
     outline: 2px solid transparent;
     outline-offset: 2px;
+}
+/* end custom tailwinds button */
+button {
+    margin-top: 50px;
 }
 
 main > form > .form-row > .input-and-label {
