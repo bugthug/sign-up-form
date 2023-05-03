@@ -151,7 +151,7 @@ input {
     padding: 7px;
     margin-top: 3px;
     border-radius: 5px;
-    outline: none !important;
+    outline: none;
 }
 
 /* CSS Button from Tailwind, ignore */
@@ -205,25 +205,30 @@ input {
 }
 
 input:focus {
+    outline: 1px solid blue;
     transition: 200ms;
-    border: 1px solid blue;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 input:invalid {
+    outline: 1px solid red;
     transition: 200ms;
     border: 0.1px solid red;
 }
 
 input:valid {
     transition: 200ms;
+    outline: 1px solid green;
     border: 0.1px solid green;
 }
 
 input:placeholder-shown {
+    outline: 0.2px solid grey;
     border: 0.1px solid transparent;
 }
 
 input.pw-no-match {
+    outline: 0.2px solid red;
     border: 0.1px solid red;
 }
 
