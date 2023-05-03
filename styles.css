@@ -66,14 +66,17 @@ body {
 }
 
 .sidebar {
+    width: 30vw;
     height: 100vh;
     background-image: url("./assets/nicefile.avif");
 }
 
 .black-line {
-    padding: 10px 150px;
+    width: 30vw;
+    padding: 10px 0;
     margin-top: 200px;
     align-items: center;
+    justify-content: center;
     color: white;
     background-color: hsla(0, 100%, 0%,0.3);
     display: flex;
@@ -89,7 +92,7 @@ body {
 }
 
 .form-section {
-    flex: 1;
+    flex: 3;
     background-color: #edede7;
     font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     margin-top: 150px;
