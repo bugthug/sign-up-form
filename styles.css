@@ -69,6 +69,10 @@ header {
 }
 
 main {
+    background-color: #edede7;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin-top: 150px;
+    margin-left: 45px;
     background-color: whitesmoke;
     margin-top: 10px;
     /* make form stick to sidebar */
@@ -82,7 +86,8 @@ main {
 
 main > form > p{
     font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    padding-top: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
     font-size: 1.175rem;
 }
 
@@ -164,13 +169,6 @@ input:invalid {
     border: 0.1px solid red;
 }
 
-input:invalid::after {
-    content:"Password does not fit format";
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-}
-
 input:valid {
     transition: 200ms;
     border: 0.1px solid green;
@@ -178,6 +176,22 @@ input:valid {
 
 input:placeholder-shown {
     border: 0.1px solid transparent;
+}
+
+input.pw-no-match {
+    border: 0.1px solid red;
+}
+
+.input-and-label span {
+    margin-top: 10px;
+    opacity: 0;
+    color: red;
+}
+
+.input-and-label span.span-pw-no-match {
+    transition: 200ms;
+    opacity: 1;
+    visibility: visible;
 }
 
 footer {

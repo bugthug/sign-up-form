@@ -7,16 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Signup Form</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <script src="./script.js" defer></script>
 </head>
 
 <body>
-    <!-- <div id="sidebar">
-        <div class="black-strip">
-            <img src="./assets/odin-lined.png" alt="odin-logo">
-            <p>Odin</p>
-        </div>
-    </div> -->
 
     <header>
         <p>This is not a real online service! You know you need something like this in your life to help you realize
@@ -54,11 +48,13 @@
             <div class="form-row">
                 <div class="input-and-label">
                     <label for="password">Password</label>
-                    <input required type="password" placeholder=" " pattern="[A-Za-z]{3}" name="password" id="password">
+                    <input required type="password" placeholder=" " name="password" id="password">
+                    <span>* Passwords do not match</span>
                 </div>
                 <div class="input-and-label">
                     <label for="confirm-password" required>Confirm Password</label>
                     <input type="password" name="pw-conf" placeholder=" "  id="confirm-password">
+                    <span>* Passwords do not match</span>
                 </div>
             </div>
         </form>
