@@ -57,6 +57,10 @@ em {
 
 body {
     background-color: #edede7;
+}
+
+.form-section {
+    background-color: #edede7;
     font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     margin-top: 150px;
     margin-left: 45px;
@@ -71,12 +75,11 @@ header {
 main {
     background-color: #edede7;
     font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    margin-top: 150px;
-    margin-left: 45px;
+    
+    margin: 160px 45px 0 0;
     background-color: whitesmoke;
-    margin-top: 10px;
     /* make form stick to sidebar */
-    margin-left: -45px;
+    
     padding-left: 45px;
     padding-bottom: 20px;
     margin-bottom: 10px;
